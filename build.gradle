@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'ch.obermuhlner'
+version = '0.0.1'
+
+mainClassName = 'ch.obermuhlner.intruder.Application'
+applicationName = 'intruder-alert'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.sarxos:webcam-capture:0.3.12'
+}
+
